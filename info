@@ -1,0 +1,6 @@
+docker inspect --format='{{.NetworkSettings.IPAddress}}'
+docker inspect --format='{{.NetworkSettings.Ports}}'
+docker inspect --format='{{.NetworkSettings.Bridge}}'
+docker inspect --format='{{.State.Pid}}'
+
+
