@@ -3,4 +3,18 @@ docker inspect --format='{{.NetworkSettings.Ports}}'
 docker inspect --format='{{.NetworkSettings.Bridge}}'
 docker inspect --format='{{.State.Pid}}'
 
+docker run -it		# interactive, tty
+docker start -ia	# interactive, attach
+
+docker stats
+
+docker ps
+	-l		# last
+	-a		# all
+
+Exited (0)		# stop 
+Exited (137)		# kill
+
+docker system prune
+
 
