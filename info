@@ -18,3 +18,5 @@ Exited (137)		# kill
 docker system prune
 
 
+sed -i 's/PermitRootLogin Without-password/PermitRootLogin yes/g' /etc/ssh/sshd_config
+
